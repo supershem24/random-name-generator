@@ -1,7 +1,11 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Random Name Button
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<h1 x-data:"{name:''}" x-text:"name"></h1>
+<button x-on:click="">Randomize Name</button>
+
+
+
+<script src="random-name.js"></script>
