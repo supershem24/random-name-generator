@@ -3,9 +3,7 @@ layout: layout.liquid
 title: Random Name Button
 ---
 
-<div x-data="{names:['Gerorge', 'Johnathan', 'Egg cruiser', 'Big chungus']}">
-    <span x-data="{name: 'John'}">
-        <h1 x-text="name"></h1>
-        <button x-on:click="name = GetRandomItem(names)">Randomize Name</button>
-    </span>
+<div x-data="{names:['Gerorge', 'Johnathan', 'Egg cruiser', 'Big chungus'], name: 'Hello'}, getRandomItem">
+    <h1 x-text="name"></h1>
+    <button x-on:click="name = getRandomItem(names)">Randomize Name</button>
 </div>
