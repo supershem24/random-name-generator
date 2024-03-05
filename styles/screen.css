@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
+    color: #36454F;
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: -2px;
 }
 
@@ -47,4 +47,17 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.nameHolder{
+    background-color: #D7D7D7;
+    width: 80%;
+    height: 140%;
+    border-width: 5px;
+    border: dashed;
+    margin: 10% auto;
+}
+
+button{
+    font-size: 2em;
 }
